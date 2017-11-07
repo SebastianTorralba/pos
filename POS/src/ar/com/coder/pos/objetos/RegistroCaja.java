@@ -11,30 +11,30 @@ import java.util.*;
 /** @pdOid 99a24b02-0832-492d-9f8c-80620b0ed9f6 */
 public class RegistroCaja {
    /** @pdOid bc3c54d1-79be-4252-b170-15ae4c3b4c6d */
-   public java.util.Date fecha;
+   private java.util.Date fecha;
    /** @pdOid 42d3ff8c-47eb-46d5-a72b-b75a5dc3ece3 */
-   public double cantidad;
+   private double cantidad;
    /** @pdOid eac12c67-b933-4ff6-a1af-86cb4de727b2 */
-   public float montoBruto;
+   private float montoBruto;
    /** @pdOid 094850a5-cbca-4ba6-b80b-435d41306789 */
-   public float montoImpuestos;
+   private float montoImpuestos;
    /** @pdOid 771eece8-de53-437f-b22d-10dc479f397e */
-   public float montoDescuentos;
+   private float montoDescuentos;
    /** @pdOid 25c44340-80cb-4d95-8fc5-59a18c4b94e8 */
-   public float montoNeto;
+   private float montoNeto;
    /** @pdOid cedd6cb2-c12f-4f75-bdd4-5c01bb33800d */
-   public int signo;
+   private int signo;
    /** @pdOid d46b010c-eb06-4bf6-a56e-b26cab791776 */
-   public java.util.Date fechaRegistro;
+   private java.util.Date fechaRegistro;
    /** @pdOid 23b4cf5f-5cc8-49e2-9ba4-2a76f51d2edd */
-   public java.lang.String usuario;
+   private java.lang.String usuario;
    
    /** @pdRoleInfo migr=no name=Item assc=registroEnCajaDeLosItems mult=1..1 side=A */
-   public Item item;
+   private Item item;
    /** @pdRoleInfo migr=no name=Caja assc=registroDeLaCaja mult=0..1 side=A */
-   public Caja caja;
+   private Caja caja;
    /** @pdRoleInfo migr=no name=UnidadMedida assc=registroDeUnidades mult=0..1 side=A */
-   public UnidadMedida unidadMedida;
+   private UnidadMedida unidadMedida;
    
    /** @pdOid a842edeb-9aa7-4240-940a-e1f87dbc00b7 */
    public java.util.Date getFecha() {

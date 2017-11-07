@@ -11,27 +11,27 @@ import java.util.*;
 /** @pdOid 505baa28-5f5f-4ab9-92b5-ab59ba2ac375 */
 public class Persona {
    /** @pdOid ec1252a1-f830-46d3-a2e7-51d529e543cb */
-   public java.lang.String codPersona;
+   private java.lang.String codPersona;
    /** @pdOid 40dce5b1-59e5-461f-a47f-de114a60fd38 */
-   public java.lang.String denominacion;
+   private java.lang.String denominacion;
    /** @pdOid b2f1919d-460c-4971-b01e-f94acdd86420 */
-   public java.lang.String cuit;
+   private java.lang.String cuit;
    /** @pdOid 65d59b04-96de-4870-b026-676106e2144e */
-   public java.util.Date fechaAlta;
+   private java.util.Date fechaAlta;
    /** @pdOid 34cb52f6-6416-480a-94d3-8e565e3f47d8 */
-   public java.lang.String direccion;
+   private java.lang.String direccion;
    /** @pdOid 8092c915-4f4c-4edd-9ab7-761e5678bc7a */
-   public java.lang.String contacto;
+   private java.lang.String contacto;
    /** @pdOid c9425b2a-0edb-4bb8-bebe-a6f4dcb2745c */
-   public java.lang.String telefono;
+   private java.lang.String telefono;
    /** @pdOid fe5245a4-cc09-4fb9-9577-0af9a90f1b5f */
-   public java.lang.String celular;
+   private java.lang.String celular;
    /** @pdOid a67571aa-3d9c-42fb-b012-891aee483cb7 */
    public java.lang.String mail;
    /** @pdOid 365ca11a-6d44-48b1-b6df-9e5e9fa72fe7 */
-   public java.util.Date fechaRegistro;
+   private java.util.Date fechaRegistro;
    /** @pdOid 78b03b91-68fa-4b9b-875d-448ada934cf9 */
-   public java.lang.String usuario;
+   private java.lang.String usuario;
    
    /** @pdOid 2fe18704-9f8a-45d9-8c36-067ef8b2192f */
    public java.lang.String getCodPersona() {

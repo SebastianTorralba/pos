@@ -11,18 +11,18 @@ import java.util.*;
 /** @pdOid 8b971c24-2771-4a2f-b512-7a89573a9947 */
 public class Caja {
    /** @pdOid 505784cb-2388-41e0-89da-fb2dd004719d */
-   public java.lang.String codigo;
+   private java.lang.String codigo;
    /** @pdOid 4d52684d-16a3-4acf-b701-64d6d195d14c */
-   public java.lang.String nombre;
+   private java.lang.String nombre;
    /** @pdOid ed2ef6fa-5b94-4e0f-bfb5-0b1b289bc243 */
-   public java.lang.String usuarioCajero;
+   private java.lang.String usuarioCajero;
    /** @pdOid a92e6227-10b1-4a37-9b9a-24b0458497b1 */
-   public java.util.Date fechaRegistro;
+   private java.util.Date fechaRegistro;
    /** @pdOid 11e86089-c5e2-4a4f-b22f-ea4212c8b5d7 */
-   public java.lang.String usuario;
+   private java.lang.String usuario;
    
    /** @pdRoleInfo migr=no name=Impresoras assc=impresoraDeLaCaja mult=0..1 side=A */
-   public Impresoras impresoras;
+   private Impresoras impresoras;
    
    /** @pdOid cedef314-e829-4dac-a5ed-f2687e6bf06f */
    public java.lang.String getCodigo() {

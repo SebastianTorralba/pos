@@ -11,13 +11,13 @@ import java.util.*;
 /** @pdOid 5de94f25-5e4a-4165-856d-8c2026e22718 */
 public class Rubro {
    /** @pdOid ddd31639-00ab-4268-82a4-cf061fa2d736 */
-   public java.lang.String codigo;
+   private java.lang.String codigo;
    /** @pdOid a20a2752-70af-4de5-8585-16750afc5279 */
-   public java.lang.String nombre;
+   private java.lang.String nombre;
    /** @pdOid 767defc6-4391-4d10-9d2f-bf4717d01501 */
-   public java.util.Date fechaRegistro;
+   private java.util.Date fechaRegistro;
    /** @pdOid cf28435d-6a81-412d-bf43-6b5345951846 */
-   public java.lang.String usuario;
+   private java.lang.String usuario;
    
    /** @pdOid d1cf6c10-1d14-4088-a733-a9fe07493da1 */
    public java.lang.String getCodigo() {

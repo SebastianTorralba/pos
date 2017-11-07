@@ -11,19 +11,19 @@ import java.util.*;
 /** @pdOid 5b5d68c8-18f6-4d96-84b1-d1d8cdddf2e9 */
 public class Usuario {
    /** @pdOid 55952bc2-1743-4724-a12a-b044c3eac382 */
-   public java.lang.String usuario;
+   private java.lang.String usuario;
    /** @pdOid ecd2447c-5ab6-4a41-a67e-ebaef3b9aeb6 */
-   public java.lang.String apellidonombre;
+   private java.lang.String apellidonombre;
    /** @pdOid 06e83849-7276-4b47-ae45-d6fdbb893b53 */
-   public java.lang.String clave;
+   private java.lang.String clave;
    /** @pdOid d7d5bd4d-4ae4-411d-ac7c-f1d6a609e1ff */
-   public java.lang.String perfil;
+   private java.lang.String perfil;
    /** @pdOid 0a632c03-5f02-40fc-b87e-0f0fbbaf6216 */
-   public java.lang.String claveSupervisor;
+   private java.lang.String claveSupervisor;
    /** @pdOid 6fdd08a3-17dc-409b-810a-fbc7db37f005 */
-   public java.util.Date fechaRegistro;
+   private java.util.Date fechaRegistro;
    /** @pdOid 4bc4a3c9-c2cf-4062-99c6-8e60d24b6a28 */
-   public java.lang.String usuarioRegistro;
+   private java.lang.String usuarioRegistro;
    
    /** @pdOid ae9a780c-d0fe-45bd-a280-1055b71f22ea */
    public java.lang.String getUsuario() {

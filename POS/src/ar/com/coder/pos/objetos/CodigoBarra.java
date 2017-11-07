@@ -11,16 +11,16 @@ import java.util.*;
 /** @pdOid d7c421b4-f300-4555-a821-486f5fe31431 */
 public class CodigoBarra {
    /** @pdOid ea8add30-628d-422c-bfcf-34472f20a06a */
-   public java.lang.String tipo;
+   private java.lang.String tipo;
    /** @pdOid 1c26ab7c-b87a-4f18-96a5-986799151a99 */
-   public java.lang.String codigoBarra;
+   private java.lang.String codigoBarra;
    /** @pdOid b54f07bf-609d-43ad-b552-88c0c52f0d25 */
-   public java.util.Date fechaRegistro;
+   private java.util.Date fechaRegistro;
    /** @pdOid 165a4f00-f9ff-46bd-afe7-e8e2e9de30d8 */
-   public java.lang.String usuario;
+   private java.lang.String usuario;
    
    /** @pdRoleInfo migr=no name=Articulo assc=codigoDeBarraDeLosArticulos mult=1..1 side=A */
-   public Articulo articulo;
+   private Articulo articulo;
    
    /** @pdOid 7476a10d-af0a-42d5-a4db-075a00850f28 */
    public java.lang.String getTipo() {

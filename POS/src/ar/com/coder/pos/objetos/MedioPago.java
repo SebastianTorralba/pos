@@ -11,13 +11,13 @@ import java.util.*;
 /** @pdOid dc083321-ee1a-4219-aded-db8ff2a556b1 */
 public class MedioPago {
    /** @pdOid 77457862-1786-4d2c-81be-d3a6cf2fb9ac */
-   public java.lang.String codigo;
+   private java.lang.String codigo;
    /** @pdOid 0f9139f1-ca05-4f52-8ce1-4ade0a6c9ba4 */
-   public java.lang.String nombre;
+   private java.lang.String nombre;
    /** @pdOid 62b7c4b4-fe7b-4530-a63c-3175bdaf2b49 */
-   public java.util.Date fechaRegistro;
+   private java.util.Date fechaRegistro;
    /** @pdOid d25d4f7e-5d97-4dc1-a03c-8c9e395d89c4 */
-   public java.lang.String usuario;
+   private java.lang.String usuario;
    
    /** @pdOid 5a24783f-1499-4840-8d4f-04c661b40ffe */
    public java.lang.String getCodigo() {

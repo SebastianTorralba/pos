@@ -11,32 +11,32 @@ import java.util.*;
 /** @pdOid f705822c-31c6-41e9-a56f-d84d85ee0276 */
 public class Item {
    /** @pdOid f043d88f-26fd-4d4d-b3ac-7fe04e6c1de5 */
-   public double cantidad;
+   private double cantidad;
    /** @pdOid 5ac9a627-ec2f-4741-aadf-8b286ebe7561 */
-   public float montoBruto;
+   private float montoBruto;
    /** @pdOid f08a2d6c-5be2-4136-bde9-1321c7bd612f */
-   public float montoImpuestos;
+   private float montoImpuestos;
    /** @pdOid 22a2d5bd-960c-401f-9c7a-c2dbf5ebee93 */
-   public float montoDescuentos;
+   private float montoDescuentos;
    /** @pdOid f056e577-6a90-4a4a-bc5a-183d53e96eb8 */
-   public float montoNeto;
+   private float montoNeto;
    /** @pdOid 37895155-3fe5-4dbb-a834-ccfd5c84ae55 */
-   public java.lang.String lote;
+   private java.lang.String lote;
    /** @pdOid d173c944-4d31-4e21-b086-3bdb64d4fd91 */
-   public java.util.Date fechaVencimiento;
+   private java.util.Date fechaVencimiento;
    /** @pdOid a93758ea-7553-4594-aff9-b72fd34f407b */
-   public java.util.Date fechaRegistro;
+   private java.util.Date fechaRegistro;
    /** @pdOid f79844d5-3580-4417-8653-fcd3b35b49fb */
-   public java.lang.String usuario;
+   private java.lang.String usuario;
    
    /** @pdRoleInfo migr=no name=RegistroCaja assc=registroEnCajaDeLosItems coll=java.util.Collection impl=java.util.HashSet mult=0..* */
-   public java.util.Collection<RegistroCaja> registroCaja;
+   private java.util.Collection<RegistroCaja> registroCaja;
    /** @pdRoleInfo migr=no name=Documento assc=itemsDelDocumento mult=1..1 side=A */
-   public Documento documento;
+   private Documento documento;
    /** @pdRoleInfo migr=no name=Articulo assc=itemsDeLosArticulos mult=1..1 side=A */
-   public Articulo articulo;
+   private Articulo articulo;
    /** @pdRoleInfo migr=no name=UnidadMedida assc=medidasDeLosItems mult=0..1 side=A */
-   public UnidadMedida unidadMedida;
+   private UnidadMedida unidadMedida;
    
    /** @pdOid 0226d39e-8d74-4482-bc9f-38ed64aa9791 */
    public double getCantidad() {

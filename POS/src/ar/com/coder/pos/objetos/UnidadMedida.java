@@ -11,13 +11,13 @@ import java.util.*;
 /** @pdOid 6923a5ab-281d-4324-971c-1624c984e260 */
 public class UnidadMedida {
    /** @pdOid a38eb39c-014d-47f3-8c93-8916ca0bb465 */
-   public java.lang.String codigo;
+   private java.lang.String codigo;
    /** @pdOid 21fe57c5-dfa1-4b60-82b0-73713ddeb388 */
-   public java.lang.String nombre;
+   private java.lang.String nombre;
    /** @pdOid 7e2616b0-ffad-4a98-abb2-1217ced24d24 */
-   public java.util.Date fechaRegistro;
+   private java.util.Date fechaRegistro;
    /** @pdOid cd8e2e25-5812-4c60-aba1-9fc7f1c88ad7 */
-   public java.lang.String usuario;
+   private java.lang.String usuario;
    
    /** @pdRoleInfo migr=no name=RegistroCaja assc=registroDeUnidades coll=java.util.Collection impl=java.util.HashSet mult=0..* */
    public java.util.Collection<RegistroCaja> registroCaja;

@@ -11,40 +11,40 @@ import java.util.*;
 /** @pdOid bdbbcc56-7e02-422b-9744-7c341b28f4e7 */
 public class Documento {
    /** @pdOid 6a9e81a5-7094-4e52-9f9c-caf1a571ac54 */
-   public int id;
+   private int id;
    /** @pdOid 1a3bcfe6-c0fd-4348-a173-cedbb5273de7 */
-   public java.lang.String nombre;
+   private java.lang.String nombre;
    /** @pdOid 3a4b4838-c63a-49ae-8190-ead20b09d60e */
-   public java.util.Date fecha;
+   private java.util.Date fecha;
    /** @pdOid afbd62c5-333f-433b-80c5-01e1401df69f */
-   public int serie;
+   private int serie;
    /** @pdOid 1aac985b-31dd-4865-8cbd-1ab8861247de */
-   public int numero;
+   private int numero;
    /** @pdOid 1f5c6d49-a30b-47d7-a6d3-f91bcfd3a511 */
-   public java.lang.String observaciones;
+   private java.lang.String observaciones;
    /** @pdOid 48412ee7-4c10-4907-9f8b-77d683458752 */
-   public float montoBruto;
+   private float montoBruto;
    /** @pdOid 8784c76f-c416-47d4-ba7f-65098c3440ca */
-   public float montoImpuestos;
+   private float montoImpuestos;
    /** @pdOid ae585fdb-4d59-43ae-954e-47532bda2e03 */
-   public float montoDescuentos;
+   private float montoDescuentos;
    /** @pdOid a436405f-6fbe-40fd-99bf-631b2d3c6eb5 */
-   public float montoNeto;
+   private float montoNeto;
    /** @pdOid 5ddbeff9-859f-4f39-baea-f4f0f95b49e6 */
-   public java.util.Date fechaRegistro;
+   private java.util.Date fechaRegistro;
    /** @pdOid 998f67f2-1c42-4cab-ae5b-cf1a79ca3aac */
-   public java.lang.String usuario;
+   private java.lang.String usuario;
    
    /** @pdRoleInfo migr=no name=Item assc=itemsDelDocumento coll=java.util.List mult=0..* type=Composition */
-   public java.util.List<Item> item;
+   private java.util.List<Item> item;
    /** @pdRoleInfo migr=no name=Empresas assc=empresaDelDocumento mult=0..1 side=A */
-   public Empresas empresas;
+   private Empresas empresas;
    /** @pdRoleInfo migr=no name=Persona assc=documentosDePersonas mult=0..1 side=A */
-   public Persona persona;
+   private Persona persona;
    /** @pdRoleInfo migr=no name=MedioPago assc=medioDelDocumento mult=0..1 side=A */
-   public MedioPago medioPago;
+   private MedioPago medioPago;
    /** @pdRoleInfo migr=no name=TipoDocumento assc=tipoDocumento mult=0..1 side=A */
-   public TipoDocumento tipoDocumento;
+   private TipoDocumento tipoDocumento;
    
    /** @pdOid 92fcaa85-a0c6-49ff-a0a6-85f832596242 */
    public int getId() {

@@ -11,36 +11,37 @@ import java.util.*;
 /** @pdOid 895d1cf7-9451-4267-bd59-800c56e1b226 */
 public class Articulo {
    /** @pdOid cbdd206f-5bb4-423e-856f-6048f4369755 */
-   public java.lang.String codigo;
+   private java.lang.String codigo;
    /** @pdOid d6818987-f8e3-47dc-a83e-2e7db7d8e2f7 */
-   public java.lang.String nombre;
+   private java.lang.String nombre;
    /** @pdOid 534c3e64-ebe3-401c-8ea9-8a6d1933f405 */
-   public double precioCosto;
+   private double precioCosto;
    /** @pdOid dbb4df92-c71e-4251-b4ec-590640ff9ced */
-   public double precioVenta;
+   private double precioVenta;
    /** @pdOid 2fe42145-39a5-4a23-bb51-35e5ef9d6edc */
-   public double porcentajeGanancia;
+   private double porcentajeGanancia;
    /** @pdOid 99230893-04e3-41ad-9e0e-ffd4be6a190c */
-   public double iva;
+   private double iva;
    /** @pdOid cdb8b3af-8742-432d-86f5-3fa96abbbfec */
-   public short usaLote;
+   private short usaLote;
    /** @pdOid d556f507-53b9-49dc-b106-c20f0840bdd0 */
-   public short esServicio;
+   private short esServicio;
    /** @pdOid 38f829d0-8ace-417a-9d5d-bb2587fe24c5 */
-   public int tieneFechaVencimiento;
+   private int tieneFechaVencimiento;
    /** @pdOid ba46e11c-6a19-4348-b405-4080a5006440 */
-   public java.util.Date fechaRegistro;
+   private java.util.Date fechaRegistro;
    /** @pdOid 030b0d81-618e-45eb-98a7-4366e57fb086 */
-   public java.lang.String usuario;
+   private java.lang.String usuario;
    
    /** @pdRoleInfo migr=no name=CodigoBarra assc=codigoDeBarraDeLosArticulos coll=java.util.List mult=0..* type=Composition */
-   public java.util.List<CodigoBarra> codigoBarra;
+   private java.util.List<CodigoBarra> codigoBarra;
    /** @pdRoleInfo migr=no name=Rubro assc=rubrosDeLosArticulos mult=0..1 side=A */
-   public Rubro rubro;
+   private Rubro rubro;
    /** @pdRoleInfo migr=no name=UnidadMedida assc=unidadesDelArticulo mult=0..1 side=A */
-   public UnidadMedida unidadMedida;
+   private UnidadMedida unidadMedida;
    
-   /** @pdOid ecb861f5-2fc4-4e79-818b-98c29ceb41cb */
+   /**
+     * @return  *  @pdOid ecb861f5-2fc4-4e79-818b-98c29ceb41cb */
    public java.lang.String getCodigo() {
       return codigo;
    }

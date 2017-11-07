@@ -11,13 +11,13 @@ import java.util.*;
 /** @pdOid 815787d5-e36b-4dbf-9eff-c41c94c15ad6 */
 public class Impresoras {
    /** @pdOid 6e12f23b-e9c6-430f-8842-3e402541ca41 */
-   public java.lang.String codigo;
+   private java.lang.String codigo;
    /** @pdOid bb65c779-32d4-45ee-b379-5079b84f8c5c */
-   public java.lang.String nombre;
+   private java.lang.String nombre;
    /** @pdOid a66d39bc-33d2-473f-8bb3-49e426f04f52 */
-   public java.util.Date fechaRegistro;
+   private java.util.Date fechaRegistro;
    /** @pdOid b126588b-12cb-4f9f-b382-d8c1a41c5c40 */
-   public java.lang.String usuario;
+   private java.lang.String usuario;
    
    /** @pdOid 27b0b370-6bd4-4407-9d93-fab64bffbfc8 */
    public java.lang.String getCodigo() {
